@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+.LoadingDiv{
+    font-family:sans-serif ;
+    display: inline-block;
+}
+
+.Loading{
+    display: inline-block;
+    font-family:sans-serif ;
+    color: rgba(29, 65, 92, 0.3);
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: 100%;
+
+}

@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+.LoadingDiv{
+    position: relative;
+}
+
+.Loading{
+    position: absolute;
+    display: inline-block;
+    font-family:sans-serif ;
+    color: rgba(57, 79, 95, 0.3);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-top: 0%;
+}
+
+/*                                  */
+
+.DetailAll{
+    position: relative;
+    background-color: rgba(10, 24, 34, 0.9);
+    height: 750px;
+    top: 20px
+}
+
+.BackgroundImg{
+    position: relative;
+    display: inline-block;
+    background-size: cover;
+    text-align: center;
+    opacity: 0.15;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    top: 0px;
+
+    /* margin-left: 560px; */
+}
+
+.DivIn{ 
+    display: block;
+    position:absolute;
+    top: 12%;
+
+}
+
+.title{
+    display: block;
+    position: absolute;
+    background-color: rgba(101, 130, 151, 0.2);
+    border: solid 0.9px rgba(106, 133, 154, 0.9);
+    border-radius: 10px;
+
+    font-family:sans-serif ;
+    text-align: center ;
+
+    font-size: 17px;
+    font-weight: 650;
+    color: rgba(255, 255, 255, 0.7);
+
+
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+    right: 10px;
+    left: 10px;
+    bottom: 69%;
+
+    height: auto;    
+    width: 480px;
+    /* bottom: 5%; */
+}
+
+.script{
+    display: inline-block;
+    position: absolute;
+
+    font-family:sans-serif ;
+    text-align: start;
+
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.6);
+
+    width: 250px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 7px;
+
+    left: 245px;
+    right: 0px;
+    top: 157px;
+}
+
+.img{
+    display: block;
+    /* background-color: rgba(29, 65, 92, 0.7); */
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 66%;
+    margin-left: 5px;
+}
